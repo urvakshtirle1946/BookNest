@@ -1,0 +1,75 @@
+section.Hero {
+    background-image: url(/IMG_20250404_081811.jpg);
+    background-size: cover;
+    position: relative;
+    height: 675px;
+}
+.conatiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.H-image {
+    width: 464px;
+    height: 520px;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255, 255, 255, 0.12);
+    margin-right: 100px;
+    margin-top: 40px;
+}
+img {
+    width: 465px;
+    height: 100%;
+}
+.H-left {
+    gap: 3rem;
+    margin-bottom: -1px;
+    margin-left: 140px;
+    padding-bottom: 185px;
+}
+/* h1 {
+    font-size: 55px;
+} */
+h1 {
+    font-size: 55px;
+    color:black;
+    font-weight: bold;
+  }
+  
+span.black {
+    font-size: 20px;
+}
+.H-image {
+    transition: transform 0.4s ease;
+}
+
+.H-image:hover {
+    transform: scale(1.03);
+}
+/* .gradient-text {
+    background: linear-gradient(270deg, #ff6600, #1f3e72, #ffcc00);
+    background-size: 600% 600%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientShift 6s ease infinite;
+    font-weight: bold;
+  }
+  
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  } */
+/* REMOVE THIS if present */
+.gradient-text {
+    background: none;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    animation: none;
+  }
+  
+  @keyframes gradientShift {
+    /* delete this whole block */
+  }
+  
